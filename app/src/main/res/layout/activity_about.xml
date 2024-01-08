@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutpage"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginBottom="315dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="308dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:maxLength="130"
+            android:text="Help send food every time you sit down to eat. Use your phone to “share your meal” with someone in need."
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:padding="5dp"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/imgLink"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/imgtwt"
+                android:src="@drawable/github" />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
